@@ -5,7 +5,7 @@ PKG_VERSION:=1.2.9a
 PKG_RELEASE=$(PKG_SOURCE_VERSION)
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/mengskysama/pdnsd.git
+PKG_SOURCE_URL:=https://github.com/huanghitoy/openwrt-pdnsd.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_VERSION:=80623bcd77
 PKG_SOURCE:=http://members.home.nl/p.a.rombouts/pdnsd/releases/$(PKG_NAME)-$(PKG_VERSION)-par.tar.gz
