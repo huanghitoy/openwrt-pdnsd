@@ -1,14 +1,14 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=pdnsd
-PKG_VERSION:=1.2.9
+PKG_VERSION:=1.2.9a
 PKG_RELEASE=$(PKG_SOURCE_VERSION)
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/mengskysama/pdnsd.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_VERSION:=e02a81d9e63927e93dc49d218535c880623bcd77
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_VERSION:=80623bcd77
+PKG_SOURCE:=http://members.home.nl/p.a.rombouts/pdnsd/releases/$(PKG_NAME)-$(PKG_VERSION)-par.tar.gz
 # PKG_MIRROR_MD5SUM:=
 # CMAKE_INSTALL:=1
 
